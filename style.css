@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+Symbols:wght@700&family=Noto+Sans:wght@300&family=PT+Sans:ital@0;1&family=Poppins:ital,wght@0,400;1,200&family=Quicksand:wght@600&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: l;
+    font-family: 'PT Sans', sans-serif;
+}
+h1{
+    color: #6a1bb4;
+}
+body {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    background-color: #6a1bb4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+}
+#profile img{
+    margin-right: 10px;
+}
+#profile h4{
+    font-size: 40px;
+    font-weight: 200;
+}
+#profile div{
+    display: flex;
+}
+.info{
+    font-size: 10px;
+}
+ul{
+    display: flex;
+}
+#navbar li{
+    color: rgb(193, 198, 203);
+    font-size: large;
+    list-style: none;
+    margin-right: 30px;
+}
+#navbar li:hover{
+    color: white;
+    padding-bottom: 0px ;
+    border-bottom: 1px solid white;
+
+}
+
+#hero {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+#hero img, #hero div{
+    width: 50%;
+}
+#hero img{
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+#Intro h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+#Intro p{
+    font-size: 30px;
+    color: rgb(114, 108, 108);
+}
+#skillpage{
+    padding: 50px;
+    /* border: 1px solid red; */
+}
+#k1{
+   font-size: 40px;
+}
+#skills {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    height: 200px ;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    margin: 40px 40px 0px 0px;
+}
+#projectpage{
+    padding: 50px;
+}
+#k2{
+   font-size: 40px;
+}
+#projects {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+}
+.project {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(221, 213, 213);
+}
+footer{
+    padding: 50px;
+}
+footer h1{
+    font-size: 40px;
+}
+#rcmdpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#showRcmd {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.rcmd {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 20px 20px 0px 0px;
+    border: 2px solid rgb(196, 189, 189);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+}
+#leaveRcmd{
+    width: 70%;
+    height: 50vh ;
+    display: flex;
+    flex-direction: column;
+}
+#leaveRcmd h2,#leaveRcmd input,#leaveRcmd textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    resize: none; /* disable resizing */
+}
+#newRcmdcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#btn{
+    border-style: none;
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #6a1bb4;
+    padding: 5px 40px;
+    cursor: pointer;
+}
+#popup{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: none;
+}
+#aftersubmit{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    max-width: fit-content;
+    transform: translate(-50%,-50%);
+    padding: 20px 40px 0px 40px;
+    border-radius:10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e1beec;
+}
+#aftersubmit p, #aftersubmit img ,#aftersubmit button{
+    margin-bottom: 20px;
+}
+#aftersubmit button{
+    padding: 5px 20px;
+    background-color: white;
+    border-style: none;
+    border: 1px solid ;
+    border-color: #6a1bb4;
+    border-radius: 8px;
+    padding: 5px 40px;
+    cursor: pointer;
+}
+#updown{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+}
